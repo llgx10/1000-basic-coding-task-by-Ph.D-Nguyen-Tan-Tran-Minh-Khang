@@ -6,8 +6,12 @@ int main()
 {
     int n;
     float s=0;
-    cout<<"nhap so duong n: ";
+    do
+    {
+        cout<<"nhap so duong n: ";
     cin>>n;
+    }
+    while(n<=0);
     for (int i=1; i<=n;i++)
     {
 
