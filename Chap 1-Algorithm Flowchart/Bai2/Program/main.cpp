@@ -5,8 +5,12 @@ using namespace std;
 int main()
 {
     int s=0,n;
-    cout<<"Nhap so duong n: ";
-    cin>>n;
+     do
+        {
+            cout <<" nhap so duong n: ";
+            cin>>n;
+         }
+         while (n<=0);
     for(int i=0;i<=n;i++)
     {
         s=s+i*i;
